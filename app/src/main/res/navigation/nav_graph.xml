@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buttonFragment">
+
+    <fragment
+        android:id="@+id/buttonFragment"
+        android:name="com.example.meridia_interview_task.ui.button.ButtonFragment"
+        android:label="Feature app"
+        tools:layout="@layout/fragment_button">
+        <action
+            android:id="@+id/action_buttonFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.meridia_interview_task.ui.maps.MapsFragment"
+        android:label="Features"
+        tools:layout="@layout/fragment_maps">
+        <action
+            android:id="@+id/action_mapsFragment_to_buttonFragment"
+            app:destination="@id/buttonFragment" />
+    </fragment>
+</navigation>

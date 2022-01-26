@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Features_task</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="open_google_maps">OPEN GOOGLE MAPS</string>
+    <string name="poor_accuracy">Poor accuracy</string>
+    <string name="average_accuracy">Average accuracy</string>
+    <string name="good_accuracy">Good accuracy</string>
+    <string name="loading">Loading, please wait</string>
+    <string name="error">Something went wrong - features were not fetched</string>
+    <string name="loaded">Features are loaded - zoom in to see more details</string>
+</resources>
